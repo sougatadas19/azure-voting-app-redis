@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front
-        image: sougatacontainerregistry125.azurecr.io/azure-vote-front:v1
+        image: testcontainerregistry555.azurecr.io/azure-vote-front:v1
         ports:
         - containerPort: 80
         resources:
