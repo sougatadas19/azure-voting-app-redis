@@ -45,6 +45,7 @@ spec:
       containers:
       - name: azure-vote-front
         image: testcontainerregistry555.azurecr.io/azure-vote-front:v1
+        imagePullPolicy: "Always"
         ports:
         - containerPort: 80
         resources:
